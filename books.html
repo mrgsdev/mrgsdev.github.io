@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>books</title>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/books.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">index</a>
+            <a href="books.html" class="active">books</a>
+            <a href="courses.html">courses</a>
+            <a href="apps.html">my apps</a>
+            <a href="contact.html">contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>books</h1>
+        <p>// Books I have read</p>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="swift">Swift</button>
+            <button class="filter-btn" data-filter="uikit">UIKit</button>
+            <button class="filter-btn" data-filter="swiftui">SwiftUI</button>
+            <button class="filter-btn" data-filter="framework">Framework</button>
+            <button class="filter-btn" data-filter="other">Other</button>
+        </div>
+        <div class="book-grid" id="bookGrid"></div>
+        <script src="../js/books.js"></script>
+    </main>
+
+    <footer>
+        &copy; mrgsdev
+    </footer>
+
+</body>
+
+</html>

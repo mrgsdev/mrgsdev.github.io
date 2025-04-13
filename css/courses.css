@@ -1,0 +1,123 @@
+body {
+  background-color: #0a0a0a;
+  color: #e0e0e0;
+  font-family: 'Share Tech Mono', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: #111;
+  border-bottom: 1px solid #222;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+nav a:hover,
+nav a.active {
+  color: #f73838;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+p {
+  color: #999;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  max-width: 1000px;
+  margin: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.course {
+  background-color: #111;
+  border: 1px solid #333;
+  padding: 1.5rem;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.course:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
+}
+
+.course-title {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.course-description {
+  font-size: 0.8rem;
+  color: #999;
+  margin-bottom: 0.5rem;
+}
+
+.course-source {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.course-source a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+.course-source a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+.course-repository {
+  font-size: 0.9rem;
+  color: #999;
+  text-align: right;
+}
+
+.course-repository a {
+  color: #f73838;
+  text-decoration: none;
+}
+
+.course-repository a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #444;
+}
